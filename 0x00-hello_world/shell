@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo ' input file name '
+read var
+
+echo '#!/bin/bash' > ${var}
+
+chmod +x ${var}
+
+vi ${var}
