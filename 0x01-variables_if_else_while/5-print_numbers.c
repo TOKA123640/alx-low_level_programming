@@ -2,7 +2,7 @@
 
 /**
 * main - Entry Point
-* Description: print all single digit numder
+* Description: print all single digit numders
 * Return: Always 0 (success)
 */
 int main(void)
