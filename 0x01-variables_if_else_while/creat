@@ -3,9 +3,7 @@
 echo 'input file name'
 read var
 
-echo -e '#include <stdlib.h>\n' >  ${var}
-echo -e '#include <time.h>\n' >> ${var}
-echo -e '#include <stdio.h>\n' >>> ${var}
+echo -e '#include <stdlib.h>\n''#include <time.h>\n''#include <stdio.h>\n' > ${var}
 echo '/**
 * main - Entry Point
 * Description: false or true validation
@@ -13,10 +11,10 @@ echo '/**
 */
 int main(void)
 {
-        srand(time(0));
-	n = rand() - RAND_MAX / 2;
-         your code;
-        return (0);
-} ' >>>> ${var}
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+your code;
+return (0);
+} ' >> ${var}
 chmod u+x ${var}
 vi ${var}
