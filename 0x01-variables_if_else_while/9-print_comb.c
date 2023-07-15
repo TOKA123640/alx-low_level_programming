@@ -2,19 +2,17 @@
 
 /**
 * main - Entry Point
-* Description: print 0.1. -9
+* Description: print comb of numbers
 * Return: Always 0 (success)
 */
 int main(void)
 {
-int n;
-for (n = 48; n <= 57; n++)
+int digit = 0;
+while (digit <= 9)
 {
-putchar(n);
-if (n == 57)
+putchar(digit + 48);
+if (digit != 9)
 {
-continue;
-}
 putchar(',');
 putchar(' ');
 }
