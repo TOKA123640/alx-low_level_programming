@@ -7,12 +7,11 @@
 */
 int main(void)
 {
-	int digit = 0;
-	while (digit <= 9)
-	{
-		printf("%i".digit);
-		digit++;
-	}
-	printf("\n");
-	return (0);
+int n;
+for (n = 0; n <= 9; n++)
+{
+printf("%d", n);
+}
+printf("\n");
+return (0);
 }
