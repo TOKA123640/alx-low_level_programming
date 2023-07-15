@@ -2,15 +2,17 @@
 
 /**
 * main - Entry Point
-* Description: 'print number of base 10 using putchar'
+* Description: print number of base 10 using putchar
 * Return: Always 0 (success)
 */
 int main(void)
 {
-int n;
-for (n = 0; n <= 9; n++)
+int digit = 0;
+while (digit <= 9)
 {
-putchar(n + 48)
+/*convert digit to ASCII representation*/
+putchar(digit + '0');
+digit++;
 }
 putchar('\n');
 return (0);
