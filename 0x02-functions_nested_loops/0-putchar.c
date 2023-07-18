@@ -1,7 +1,7 @@
 #include <main.h>
 /**
-* main - Entry Point
-* Description: false or true validation
+* main - print _putchar
+* is written by mbah
 * Return: Always 0 (success)
 */
 int main(void)
