@@ -1,11 +1,11 @@
 #include <main.h>
-
 /**
 * main - Entry Point
-* Description: print _putchar using putchar prototype
-*  Return: 0
+* Description: false or true validation
+* Return: Always 0 (success)
 */
 int main(void)
+{
 _putchar('_');
 _putchar('p');
 _putchar('u');
